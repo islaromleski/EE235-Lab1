@@ -1,10 +1,10 @@
 
-AVRASM ver. 2.2.7  c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm Thu Sep 13 12:32:56 2018
+AVRASM ver. 2.2.7  E:\Coding Projects\Assembly\Lab1\Lab1\main.asm Fri Sep 14 09:19:37 2018
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc'
-c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm(5): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\atxmega128A1Udef.inc'
+E:\Coding Projects\Assembly\Lab1\Lab1\main.asm(5): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\atxmega128A1Udef.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc'
-c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm(5): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\atxmega128A1Udef.inc'
+E:\Coding Projects\Assembly\Lab1\Lab1\main.asm(5): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\atxmega128A1Udef.inc'
                                  
                                  ; Author : Matthew Romleski
                                  
@@ -6769,7 +6769,7 @@ c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm(5): Including fil
 0000fb 9503                      		inc		oddNumber ; These two "inc"s add 2 to the current odd number (1->3, 3->5, etc).
 0000fc 0f10                      		add		sumLowBit, oddNumber
 0000fd f410                      		brcc	loopCon ; Jumps to the loop condition if there's no carrying to be done.
-0000fe 1f23                      carry:	adc		sumHighBit, zeroRegister
+0000fe 1f23                      carry:	adc		sumHighBit, zeroRegister ; Adds sumHighBit + 0 + carry
 0000ff 9488                      		clc
                                  
 000100 3603                      loopCon:cpi		oddNumber, 99 ; Compares the current oddNumber to see if it's reached the loop condition (oddNumber >= 99). If it has, Z=1 in the SREG.

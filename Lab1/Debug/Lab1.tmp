@@ -1,19 +1,19 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATxmega128A1U"</DEVICE>
- <WORKING_DIR>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\Debug</WORKING_DIR>
+ <WORKING_DIR>E:\Coding Projects\Assembly\Lab1\Lab1\Debug</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc</DIR>
   <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</SOURCE_FILE>
+ <SOURCE_FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\ATxmega128a1udef.inc</FILE>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\XMEGAA_DFP\1.1.68\avrasm\inc\atxmega128A1Udef.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\Debug\Lab1.obj</FILE>
+  <FILE>E:\Coding Projects\Assembly\Lab1\Lab1\Debug\Lab1.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
   <FILE>Lab1.hex</FILE>
@@ -23,10 +23,10 @@
   <FILE>Lab1.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <start><FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</FILE><LINE>18</LINE></start>
-  <loop><FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</FILE><LINE>23</LINE></loop>
-  <loopCon><FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</FILE><LINE>30</LINE></loopCon>
-  <carry><FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</FILE><LINE>27</LINE></carry>
-  <done><FILE>c:\users\matthew\Documents\Atmel Studio\7.0\Lab1\Lab1\main.asm</FILE><LINE>34</LINE></done>
+  <start><FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</FILE><LINE>18</LINE></start>
+  <loop><FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</FILE><LINE>23</LINE></loop>
+  <loopCon><FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</FILE><LINE>30</LINE></loopCon>
+  <carry><FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</FILE><LINE>27</LINE></carry>
+  <done><FILE>E:\Coding Projects\Assembly\Lab1\Lab1\main.asm</FILE><LINE>34</LINE></done>
  </LABELS>
 </ASSEMBLER_INFO>
